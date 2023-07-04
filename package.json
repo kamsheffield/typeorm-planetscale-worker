@@ -1,0 +1,22 @@
+{
+  "name": "typeorm-planetscale-worker",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy": "wrangler publish",
+    "start": "wrangler dev",
+    "typeorm": "typeorm-ts-node-esm"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@types/node": "^20.3.3",
+    "mysql": "^2.18.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@planetscale/database": "file:libraries/planetscale-database-js",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "file:libraries/typeorm/build/typeorm-0.3.16.tgz"
+  }
+}
