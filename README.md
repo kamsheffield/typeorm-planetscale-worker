@@ -11,3 +11,9 @@ Proof of concept showing PlanetScale and TypeORM functioning in a Cloudflare Wor
 
 ### Build and run
 * `npm run start`
+
+### ES Build CLI
+`./node_modules/.bin/esbuild ./src/worker.ts --bundle --format=esm --outfile=./dist/out.js --tree-shaking=true --log-limit=0 --minify --keep-names`
+
+### Run
+`wrangler dev --no-bundle`

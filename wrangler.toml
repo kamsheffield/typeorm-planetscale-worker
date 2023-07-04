@@ -1,5 +1,5 @@
 name = "solitary-hat-99b7"
-main = "src/worker.ts"
+main = "dist/out.js"
 compatibility_date = "2023-07-04"
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
