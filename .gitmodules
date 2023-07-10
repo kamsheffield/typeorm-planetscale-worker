@@ -1,8 +1,0 @@
-[submodule "libraries/planetscale-database-js"]
-	path = libraries/planetscale-database-js
-	url = git@github.com:kamsheffield/planetscale-database-js.git
-	branch = typeorm-cloudflare
-[submodule "libraries/typeorm"]
-	path = libraries/typeorm
-	url = git@github.com:kamsheffield/typeorm.git
-	branch = planetscale-cloudflare

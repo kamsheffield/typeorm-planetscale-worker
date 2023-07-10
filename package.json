@@ -15,8 +15,8 @@
     "wrangler": "^3.0.0"
   },
   "dependencies": {
-    "@planetscale/database": "file:libraries/planetscale-database-js",
+    "@planetscale/database": "https://github.com/kamsheffield/planetscale-database-js/releases/download/v1.8.0-typeorm-cloudflare/planetscale-database-1.8.0.tgz",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "file:libraries/typeorm/build/typeorm-0.3.16.tgz"
+    "typeorm": "https://github.com/kamsheffield/typeorm/releases/download/v0.3.16-planetscale-cloudflare/typeorm-0.3.16.tgz"
   }
 }
